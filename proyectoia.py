@@ -168,7 +168,7 @@ class Laberinto():
 
 
 
-l=Laberinto('./redes_rana/NY61x62.png')
+l=Laberinto('./NY61x62.png')
 print("Calculando")
 l.solve_all(50000)
 print("Número de rutas halladas:",len(l.soluciones))
